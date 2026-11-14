@@ -42,6 +42,8 @@ Render the result to the HTML template.
 Publish the website in Localhost.
 
 ## PROGRAM:
+```
+rakshana.html
 <html>
     <head>
         <title>sample web page</title>
@@ -85,6 +87,8 @@ urls.py
 from django.contrib import admin
 from django.urls import path
 from myapp import views
+
+```
 
 urlpatterns = [
     path('', views.churn_rate, name='churn_rate'),
